@@ -13,6 +13,8 @@ option(IMGUI_STATIC_LIBRARY  "Set to OFF to build as a DLL."                    
 
 option(IMGUI_WITH_IMPL       "Set to OFF to not include 'imgui_impl*' sources."           ON)
 
+option(IMGUI_WITH_GL3W		 "Wether to add the builtin GL3W extension library"			  OFF)
+
 
 ##################################################################################################################
 # Options Dependent
