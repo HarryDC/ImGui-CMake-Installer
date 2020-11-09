@@ -36,3 +36,7 @@ cmake_dependent_option(IMGUI_IMPL_DX12
     "IMGUI_WITH_IMPL" ON
 )
 
+cmake_dependent_option(IMGUI_IMPL_GL3
+    "Set to ON to include implementation files." OFF 
+    "IMGUI_WITH_IMPL" ON
+)
